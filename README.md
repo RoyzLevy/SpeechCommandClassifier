@@ -21,3 +21,6 @@ Findings (after 10 epochs):
 * Local usage - might need GPU for training / configure smaller number of epochs (results may vary accordingly).
 1. git clone https://github.com/RoyzLevy/SpeechCommandClassifier.git (or SSH)
 2. pip install -r requirements.txt
+3. Get commands sound files from any available dataset (for example Kaggle's Synthetic Speech Commands Dataset: https://www.kaggle.com/jbuchner/synthetic-speech-commands-dataset)
+4. Divide the data to train, validation and test directories (example for heirarchy provided)
+5. run classifier_main.py and get the results of the trained model.
