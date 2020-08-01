@@ -23,4 +23,4 @@ Findings (after 10 epochs):
 2. pip install -r requirements.txt
 3. Get commands sound files from any available dataset (for example Kaggle's Synthetic Speech Commands Dataset: https://www.kaggle.com/jbuchner/synthetic-speech-commands-dataset)
 4. Divide the data to train, validation and test directories (example for heirarchy provided)
-5. run classifier_main.py and get the results of the trained model.
+5. run classifier_main.py and get the results of the trained model: "test_y" file of the predictions on the test set.
